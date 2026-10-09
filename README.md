@@ -10,11 +10,11 @@
 - pricing.html — editable example packages and payment placeholders
 - contact.html — enquiry form placeholder
 - about.html, privacy.html, terms.html
-- assets/style.css — shared responsive visual system
-- assets/app.js — shared navigation and WhatsApp configuration
+- style.css — shared responsive visual system
+- app.js — shared navigation and WhatsApp configuration
 
 ## WhatsApp number (intentionally blank)
-Edit `assets/app.js` and set:
+Edit `app.js` and set:
 `const WHATSAPP_NUMBER = "91XXXXXXXXXX";`
 Use international digits only, with no plus sign or spaces. All pages share the same sticky button.
 
